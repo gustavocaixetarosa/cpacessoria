@@ -1,7 +1,23 @@
+* {
+  border: 2px solid red;
+}
+
 .header_container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 56px;
   margin-top: 48px;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
