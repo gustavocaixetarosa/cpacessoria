@@ -6,7 +6,7 @@ import { ServicosComponent } from './components/servicos/servicos.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, ServicosComponent],
+  imports: [RouterOutlet, HeaderComponent, ServicosComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

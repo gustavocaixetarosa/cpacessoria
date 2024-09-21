@@ -1,0 +1,28 @@
+section {
+  margin: 30vh;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99.983%;
+    justify-self: center;
+    align-self: center;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 99.983%;
+  }
+}
